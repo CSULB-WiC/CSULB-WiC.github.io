@@ -533,6 +533,7 @@ body.dark-theme {
 
 .message__form {
   text-align: center;
+  float: center;
 }
 
 .message__title {
@@ -549,6 +550,7 @@ body.dark-theme {
   border: none;
   outline: none;
   margin-bottom: var(--mb-1);
+  text-align: center;
 }
 
 .message__button {
@@ -729,7 +731,7 @@ body.dark-theme {
 
   .message__input,
   .message__button {
-    width: 60%;
+    width: 80%;
   }
 
   .footer__container {
@@ -875,7 +877,7 @@ body.dark-theme {
   }
   .message__input {
     display: block;
-    width: 280px;
+    width: 80%;
   }
   .message__button {
     width: initial;
