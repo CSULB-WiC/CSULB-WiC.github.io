@@ -12,8 +12,8 @@
   --title-color: hsl(355, 4%, 15%);
   --text-color: hsl(355, 4%, 35%);
   --text-color-light: hsl(355, 4%, 55%);
-  --body-color: #fff;
-  --container-color: #fff;
+  --body-color:  rgba(255, 240, 245, 0.5);
+  --container-color: rgba(238, 155, 210, 0.2);
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -101,11 +101,10 @@ img {
   height: auto;
 }
 
-/* .pics{
-  height: 50%;
-  width: 50%;
-  position: center;
-}  */
+.pics{
+  padding: 1rem;
+  border: 3px solid hsla(7, 94%, 39%, 0.895);
+} 
 
 button {
   cursor: pointer;
