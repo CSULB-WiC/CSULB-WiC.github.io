@@ -101,6 +101,12 @@ img {
   height: auto;
 }
 
+/* .pics{
+  height: 50%;
+  width: 50%;
+  position: center;
+}  */
+
 button {
   cursor: pointer;
   border: none;
