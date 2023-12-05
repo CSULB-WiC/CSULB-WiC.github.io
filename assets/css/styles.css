@@ -549,13 +549,13 @@ body.dark-theme {
   border-radius: 3rem;
   border: none;
   outline: none;
-  margin-bottom: var(--mb-1);
+  /* margin-bottom: var(--mb-1); */
   text-align: center;
 }
 
 .message__button {
   background-color: var(--title-color);
-  width: 100%;
+  width: 80%;
 }
 
 .message__button:hover {
@@ -731,7 +731,8 @@ body.dark-theme {
 
   .message__input,
   .message__button {
-    width: 80%;
+    width: 100%;
+    text-align: center;
   }
 
   .footer__container {
@@ -870,14 +871,15 @@ body.dark-theme {
   }
 
   .message__form {
-    text-align: initial;
+    text-align: center;
   }
   .message__title {
     font-size: var(--h1-font-size);
   }
   .message__input {
-    display: block;
-    width: 80%;
+    /* display: block; */
+    width: 100%;
+    text-align: center;
   }
   .message__button {
     width: initial;
